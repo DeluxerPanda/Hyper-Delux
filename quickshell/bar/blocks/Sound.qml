@@ -10,7 +10,7 @@ BarBlock {
   visible: Pipewire.ready
 
   content: BarText {
-    symbolText: ` -- ${volume}`
+    symbolText: ` ‎ ${volume}`
   }
 
   property PwNode sink: Pipewire.defaultAudioSink

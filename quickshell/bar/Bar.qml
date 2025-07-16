@@ -92,10 +92,10 @@ Scope {
           Layout.alignment: Qt.AlignRight
           Layout.fillWidth: true
   
+          Blocks.Battery {}
+          Blocks.Sound {}
           Blocks.Cpu {}
           Blocks.Memory {}
-          //Blocks.Sound
-          //Blocks.Battery
           Blocks.Date {}
           Blocks.Time {}
           Blocks.SystemTray {}
