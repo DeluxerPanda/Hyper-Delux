@@ -91,7 +91,6 @@ Scope {
           spacing: 0
           Layout.alignment: Qt.AlignRight
           Layout.fillWidth: true
-  
           Blocks.Battery {}
           Blocks.Sound {}
           Blocks.Cpu {}
